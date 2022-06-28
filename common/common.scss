@@ -1,7 +1,7 @@
 .custom-footer {
   display: flex;
   flex-wrap: wrap;
-  background: var(--primary);
+  background: var(--header_background);
   .wrap {
     box-sizing: border-box;
   }
@@ -9,7 +9,7 @@
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    color: var(--secondary);
+    color: var(--primary);
     padding: 2em 0 1em 0;
   }
   .first-box {
@@ -21,7 +21,7 @@
       display: block;
     }
     .blurb {
-      color: var(--secondary-high);
+      color: var(--primary-high);
     }
   }
   .second-box {
@@ -44,7 +44,7 @@
     width: 100%;
     display: flex;
     align-items: center;
-    border-top: 1px solid rgba(var(--primary-low-rgb), 0.05);
+    border-top: 1px solid rgba(var(--secondary-low), 0.05);
     .social {
       display: flex;
       flex-wrap: wrap;
@@ -57,7 +57,7 @@
         justify-content: center;
 
         .d-icon {
-          color: var(--secondary);
+          color: var(--primary);
           min-width: unset;
           margin: 0;
           font-size: $font-up-2;
@@ -66,7 +66,7 @@
       }
     }
     .small-link {
-      color: var(--secondary-high);
+      color: var(--primary-high);
       margin: 0 0.25em;
       font-size: $font-down-2;
     }
@@ -78,7 +78,7 @@
     font-weight: bold;
   }
   .footer-section-link-wrapper a {
-    color: var(--secondary-high);
+    color: var(--primary-high);
   }
   .list {
     margin: 1em;
@@ -108,7 +108,7 @@
   .custom-footer {
     .first-box {
       max-width: 100%;
-      border-bottom: 1px solid rgba(var(--primary-low-rgb), 0.05);
+      border-bottom: 1px solid rgba(var(--secondary-low), 0.05);
       margin-bottom: 1em;
       padding-bottom: 1em;
 
