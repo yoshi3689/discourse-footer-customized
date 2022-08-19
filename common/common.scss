@@ -4,6 +4,7 @@
   background: var(--primary);
   .wrap {
     box-sizing: border-box;
+    background-color: rgba(94,94,94,0.1);
   }
   .flexbox {
     width: 100%;
@@ -25,6 +26,11 @@
     }
   }
   .second-box {
+    .company-detail {
+      * + * {
+        margin-top: 1rem;
+      }
+    }
     flex: 1;
     .links {
       display: flex;
