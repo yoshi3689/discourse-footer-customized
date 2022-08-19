@@ -1,53 +1,41 @@
-{{#if showFooter}}
-  <div class="wrap">
+<div class="wrap">
     <div class="flexbox">
       <div class="first-box">
         <div class="heading">
-          {{mainHeading}}
+         {{headingImage}} {{mainHeading}}
+        </div>
+      </div>
+
+      <div class="second-box">
+        <div class="company_detail">
+            <div class="email">
+                 {{email}}
+            </div>
+            <div class="phone">
+                {{phone}}
+            </div>
+            <div class="street">
+                {{street}}
+            </div>
+            <div class="location">
+                {{location}}
+            </div>
+
         </div>
         <div class="blurb">
           {{blurb}}
         </div>
       </div>
-      <div class="second-box">
-        <div class="links">
-          {{#each linkSections as |section|}}
-            <div class="list">
-              <span class={{section.className}} title={{section.title}}>
-                {{section.text}}
-              </span>
-
-              <ul>
-                {{#each section.childLinks as |link|}}
-                  <li class="footer-section-link-wrapper {{link.className}}">
-                    <a
-                      class="footer-section-link"
-                      title={{link.title}}
-                      href={{link.href}}
-                      target={{link.target}}
-                    >
-                      {{link.text}}
-                    </a>
-                  </li>
-                {{/each}}
-              </ul>
-            </div>
-          {{/each}}
-        </div>
-      </div>
+   
       <div class="third-box">
-        <div class="footer-links">
-          {{#each smallLinks as |link|}}
-            <a
-              class="small-link {{link.className}}"
-              title={{link.title}}
-              target={{link.target}}
-              href={{link.href}}
-            >
-              {{link.text}}
-            </a>
-          {{/each}}
+        <div class="news_and_support">
+            <a href={{newsLetter_link}}>{{newsLetter}}</a>
+            <div class="support">
+                &#169 all right reserved • Powered by <a href="https://haylar.com/">{{haylar_logo}}</a>
+            </div>
         </div>
+       
+      
 
         <div class="social">
           {{#each socialLinks as |link|}}
@@ -64,4 +52,3 @@
       </div>
     </div>
   </div>
-{{/if}}
