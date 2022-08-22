@@ -38,6 +38,7 @@
     flex: 1;
     a {
       font-size: 1rem;
+      margin-top: 1rem;
     }
     .blurb {
       padding: 3rem 0;
@@ -122,59 +123,29 @@
 }
 
 #main-outlet {
-  // stick footer to bottom of short pages
   min-height: 85vh;
 }
 
-// @media screen and (max-width: $large-width) {
-//   .custom-footer {
-//     .first-box {
-//       max-width: 100%;
-//       border-bottom: 1px solid rgba(var(--primary-low-rgb), 0.05);
-//       margin-bottom: 1em;
-//       padding-bottom: 1em;
+@media screen and (min-width: 850px) {
+  .second-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    .company-detail {
+      grid-row: 1;
+      grid-column: 1;
+    }
+    .blurb {
+      grid-row: 1;
+      grid-column: 2;
+    }
+    > a {
+      grid-row: 2;
+      grid-column: 1;
+    }
+  }
 
-//       .blurb {
-//         display: flex;
-//         align-items: center;
-//       }
-//     }
-//     .third-box {
-//       margin-top: 0.5em;
-//     }
-//     .second-box .links {
-//       justify-content: space-between;
-//     }
-//     .list {
-//       margin: 0;
-//       margin-top: 1em;
-//     }
-//     .first-box,
-//     .second-box,
-//     .third-box {
-//       flex: 1 1 100%;
-//     }
-//   }
-// }
-
-// @media screen and (max-width: 700px) {
-//   .custom-footer {
-//     .first-box {
-//       width: 100%;
-//     }
-//     .list {
-//       margin-top: 1em;
-//       display: inline-block;
-//       vertical-align: top;
-//       min-width: 50%;
-//       font-size: $font-up-1;
-//     }
-//     .links {
-//       display: inline-block;
-//     }
-//   }
-// }
-
-// .static-login .custom-footer {
-//   margin-top: 3em;
-// }
+  .third-box {
+    display: flex;
+  }
+}
