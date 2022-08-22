@@ -19,7 +19,7 @@
     max-width: 20%;
     > a {
       background: no-repeat url($customer_logo);
-      background-size: cover;
+      background-size: contain;
       display: block;
       width: 188px;
       height: 60px;
@@ -120,55 +120,55 @@
   min-height: 85vh;
 }
 
-@media screen and (max-width: $large-width) {
-  .custom-footer {
-    .first-box {
-      max-width: 100%;
-      border-bottom: 1px solid rgba(var(--primary-low-rgb), 0.05);
-      margin-bottom: 1em;
-      padding-bottom: 1em;
+// @media screen and (max-width: $large-width) {
+//   .custom-footer {
+//     .first-box {
+//       max-width: 100%;
+//       border-bottom: 1px solid rgba(var(--primary-low-rgb), 0.05);
+//       margin-bottom: 1em;
+//       padding-bottom: 1em;
 
-      .blurb {
-        display: flex;
-        align-items: center;
-      }
-    }
-    .third-box {
-      margin-top: 0.5em;
-    }
-    .second-box .links {
-      justify-content: space-between;
-    }
-    .list {
-      margin: 0;
-      margin-top: 1em;
-    }
-    .first-box,
-    .second-box,
-    .third-box {
-      flex: 1 1 100%;
-    }
-  }
-}
+//       .blurb {
+//         display: flex;
+//         align-items: center;
+//       }
+//     }
+//     .third-box {
+//       margin-top: 0.5em;
+//     }
+//     .second-box .links {
+//       justify-content: space-between;
+//     }
+//     .list {
+//       margin: 0;
+//       margin-top: 1em;
+//     }
+//     .first-box,
+//     .second-box,
+//     .third-box {
+//       flex: 1 1 100%;
+//     }
+//   }
+// }
 
-@media screen and (max-width: 700px) {
-  .custom-footer {
-    .first-box {
-      width: 100%;
-    }
-    .list {
-      margin-top: 1em;
-      display: inline-block;
-      vertical-align: top;
-      min-width: 50%;
-      font-size: $font-up-1;
-    }
-    .links {
-      display: inline-block;
-    }
-  }
-}
+// @media screen and (max-width: 700px) {
+//   .custom-footer {
+//     .first-box {
+//       width: 100%;
+//     }
+//     .list {
+//       margin-top: 1em;
+//       display: inline-block;
+//       vertical-align: top;
+//       min-width: 50%;
+//       font-size: $font-up-1;
+//     }
+//     .links {
+//       display: inline-block;
+//     }
+//   }
+// }
 
-.static-login .custom-footer {
-  margin-top: 3em;
-}
+// .static-login .custom-footer {
+//   margin-top: 3em;
+// }
