@@ -18,7 +18,10 @@
   .first-box {
     max-width: 20%;
     > a {
-      background-image: url($customer_logo);
+      background: no-repeat url($customer_logo);
+      display: block;
+      width: 160px;
+      height: 60px;
     }
     .blurb {
       color: var(--secondary-high);
@@ -53,7 +56,8 @@
     font-weight: 200;
     .support {
       > a {
-        background-image: url($haylar_logo);
+        background: no-repeat url($haylar_logo);
+        display: block;
       }
     }
     .social {
