@@ -51,10 +51,8 @@
   }
   .third-box {
     width: 100%;
-    display: flex;
-    align-items: center;
-    font-weight: 200;
     .support {
+      display: flex;
       > a {
         background: no-repeat url(/uploads/default/original/1X/25d860a….webp);
         background-size: contain;
@@ -67,7 +65,6 @@
       display: flex;
       flex-wrap: wrap;
       align-items: center;
-      justify-content: flex-end;
       .social-link {
         margin: 20px 10px;
         display: flex;
@@ -75,11 +72,13 @@
         justify-content: center;
 
         .d-icon {
-          color: var(--secondary);
           min-width: unset;
           margin: 0;
           font-size: $font-up-2;
           opacity: 1;
+          &:hover {
+            color: var(--secondary);
+          }
         }
       }
     }
