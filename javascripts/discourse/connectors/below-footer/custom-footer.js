@@ -5,10 +5,9 @@ const getClassName = (text) => {
 export default {
   setupComponent() {
     try {
+      // parse a setting string into each social link
       const splitSocialLinks = settings.social_links.split("|").filter(Boolean);
-
       const socialLinksArray = [];
-
       splitSocialLinks.forEach((link) => {
         const fragments = link.split(",").map((fragment) => fragment.trim());
         const text = fragments[0];
@@ -29,7 +28,8 @@ export default {
         socialLinksArray.push(socialLinkItem);
       });
 
-
+      // pass all the setting strings to the component
+      // to access them from within the .hbs file
       this.setProperties({
         blurb: settings.blurb,
         customer_logo: settings.customer_logo,

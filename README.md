@@ -1,4 +1,3 @@
-# Discourse-easy-footer
+# discourse-footer-customized
 
-A Discourse theme component that adds a responsive footer. For more information see:
-https://meta.discourse.org/t/easy-responsive-footer/95818
+This theme component is a customized version of [this component](https://meta.discourse.org/t/easy-responsive-footer/95818)
