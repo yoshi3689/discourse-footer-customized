@@ -4,67 +4,67 @@
 #   description:
 #     en: "Text for the heading in the footer - you can use your site name for example - Max length 25 characters"
 
-Heading_Image:
+heading_image:
   type: upload
   default: ""
   description: image for the customer logo
 
-Haylar_logo:
+haylar_logo:
   type: upload
   default: ""
   description: Haylar company logo
 
 
-Blurb:
+blurb:
   default: "The Good to Grow team respectfully acknowledges that we live and work on the unceded ancestral and traditional territory of the Sḵwx̱wú7mesh Úxwumixw (Squamish), səl̓ilw̓ətaʔɬ (Tsleil-Waututh), and xʷməθkʷəy̓əm (Musqueam) Nations."
   max: 500
   description:
     en: "Enter a short blurb about your community - Max length 180 characters"
 
-Email:
+email:
   default: "info@goodtogrowproducts.com"
   max: 100
   description:
     en: "Enter Company Email address"
 
-Phone:
+phone:
   default: "604-454-8806"
   max: 100
   description:
     en: "Enter phone number"
 
-Street:   
+street:   
   default: "105 – 828 Harbourside Drive"
   max: 100
   description:
     en: "Enter Stress"
 
-Location:
+location:
   default: "North Vancouver, B.C. V7P 3R9"
   max: 100
   description:
     en: "Enter City, Province and Postal Code"
 
-NewsLetter:
+newsLetter:
   default: "Sign up for the Good to Grow newsletter!"
   max: 100
   description:
     en: "Newsletter Sologan"
 
-NewsLetter_link:
+newsLetter_link:
   default: "https://visitor.r20.constantcontact.com/manage/optin?v=001qQdNbhHEhMwX789KWN6DBLkF96KmyDhcZ_70KRiNWaLPWDLuqNxuOjt6YgGXO79qLMBPyJvikCimU3CiN4Ho3RtfBgbNHsHhOp8nVHAj-gJ10WgSkUlD56fzgWu7Szj_JAcSBMuhT2oF8_BvENpWCtj8OiLEN6suqSKOXJZotpU%3D"
   max: 500
   description:
     en: "Link for Newsletter"
 
-Social_links:
+social_links:
   type: list
   list_type: simple
   default: "Facebook, Join us on Facebook, https://www.facebook.com/gtgcoaching, blank,fab-facebook|LinkedIn, show some love on LinkedIn, https://www.linkedin.com/company/good-to-grow-natural-products-coaching/, blank,fab-linkedin-in| Youtube, Check out our latest videos on Youtube, https://www.youtube.com/channel/UCdaX2s5EnFth02zjG0E68pA, blank,fab-youtube |Instagram, Join us on Instagram,  https://www.instagram.com/goodtogrowproducts/, blank, fab-instagram"
   description:
     en: "Enter the social links you'd like to add to the footer in this format:<br> provider, title, URL, target<br><b>Provider:</b> is the name of the provider like Facebook or Twitter<br><b>Title:</b> The text that shows when the link is hovered<br><b>URL:</b> The path you'd like the link to have<br><b>Target:</b> Use blank to open the link in a new tab and use self to open it in the same tab<br><b>Icon:</b> use a FontAwesome5 icon name (brand icons need a 'fab-' prefix)."
 
-Show_footer_on_login_required_page:
+show_footer_on_login_required_page:
   default: true
   description:
     en: "Check this setting if you want the footer to be displayed on the login-required page (only applies if your site is private)"
