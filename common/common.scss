@@ -1,17 +1,19 @@
 .custom-footer {
   display: flex;
   flex-wrap: wrap;
-  background: var(--primary);
+  background-color: rgba(94,94,94,0.1);
+  color: var(--primary);
   .wrap {
     box-sizing: border-box;
-    background-color: rgba(94,94,94,0.1);
+    padding: 1em 2em;
+    padding-bottom: 0;
   }
   .flexbox {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
     color: var(--secondary);
-    padding: 2em 0 1em 0;
+    
   }
   .first-box {
     max-width: 20%;
