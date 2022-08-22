@@ -76,8 +76,9 @@
           margin: 0;
           font-size: $font-up-2;
           opacity: 1;
+          color: var(--primary);
           &:hover {
-            color: var(--secondary);
+            color: var(--tertiary);
           }
         }
       }
