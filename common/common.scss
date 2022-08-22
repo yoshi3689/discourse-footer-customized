@@ -34,20 +34,14 @@
     line-height: 2;
     .company-detail {
       font-weight: 200;
-      > * + * {
-        margin-top: 1rem;
-      }
-    }
-    flex: 1;
-    .news_blurb {
-      margin-top: 1.5rem;
-      > a {
+      a {
         font-size: 1rem;
       }
       .blurb {
         padding: 3rem 0;
       }
     }
+    flex: 1;
   }
   .third-box {
     width: 100%;
