@@ -31,16 +31,15 @@ export default {
 
 
       this.setProperties({
-        mainHeading: settings.Heading,
-        blurb: settings.Blurb,
-        headingImage: settings.Heading_Image,
-        email: settings.Email,
-        phone: settings.Phone,
-        street: settings.Street,
-        location: settings.Location,
-        newsLetter: settings.NewsLetter,
-        newsLetter_link: settings.NewsLetter_link,
-        haylar_logo: settings.Haylar_logo,
+        blurb: settings.blurb,
+        customer_logo: settings.customer_logo,
+        email: settings.email,
+        phone: settings.phone,
+        street: settings.street,
+        location: settings.location,
+        newsLetter: settings.news_letter,
+        newsLetter_link: settings.news_letter_link,
+        haylar_logo: settings.haylar_logo,
         socialLinks: socialLinksArray,
       });
     } catch (error) {
