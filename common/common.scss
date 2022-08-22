@@ -18,10 +18,10 @@
   .first-box {
     max-width: 20%;
     > a {
-      background: no-repeat url($customer_logo) cover;
+      background: no-repeat url($customer_logo);
       background-size: cover;
       display: block;
-      width: 160px;
+      width: 188px;
       height: 60px;
     }
     .blurb {
