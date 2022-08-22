@@ -43,7 +43,7 @@ news_letter:
   default: "Sign up for the Good to Grow newsletter!"
   max: 100
   description:
-    en: "Newsletter Sologan"
+    en: "Newsletter Slogan"
 
 news_letter_link:
   default: "https://visitor.r20.constantcontact.com/manage/optin?v=001qQdNbhHEhMwX789KWN6DBLkF96KmyDhcZ_70KRiNWaLPWDLuqNxuOjt6YgGXO79qLMBPyJvikCimU3CiN4Ho3RtfBgbNHsHhOp8nVHAj-gJ10WgSkUlD56fzgWu7Szj_JAcSBMuhT2oF8_BvENpWCtj8OiLEN6suqSKOXJZotpU%3D"

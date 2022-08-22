@@ -37,8 +37,8 @@ export default {
         phone: settings.phone,
         street: settings.street,
         location: settings.location,
-        newsLetter: settings.news_letter,
-        newsLetter_link: settings.news_letter_link,
+        news_letter: settings.news_letter,
+        news_letter_link: settings.news_letter_link,
         haylar_logo: settings.haylar_logo,
         socialLinks: socialLinksArray,
       });

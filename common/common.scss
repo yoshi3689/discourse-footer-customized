@@ -10,8 +10,7 @@
   }
   .flexbox {
     width: 100%;
-    // display: flex;
-    // flex-wrap: wrap;
+    font-weight: 200;
     color: inherit;
     > * + * {
       margin-top: 2.5rem;
