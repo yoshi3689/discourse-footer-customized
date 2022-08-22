@@ -7,12 +7,12 @@ Heading:
 Heading_Image:
   type: upload
   default: ""
-  description: background image for the banner
+  description: image for the customer logo
 
 Haylar_logo:
   type: upload
   default: ""
-  description: background image for the banner
+  description: Haylar company logo
 
 
 Blurb:
@@ -27,11 +27,11 @@ Email:
   description:
     en: "Enter Company Email address"
 
-# Phone:
-#   default: "604-454-8806"
-#    max: 100
-#   description:
-#     en: "Enter phone number"
+Phone:
+  default: "604-454-8806"
+   max: 100
+  description:
+    en: "Enter phone number"
 
 Street:   
   default: "105 – 828 Harbourside Drive"
