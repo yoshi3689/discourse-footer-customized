@@ -18,7 +18,8 @@
   .first-box {
     max-width: 20%;
     > a {
-      background: no-repeat url($customer_logo);
+      background: no-repeat url($customer_logo) cover;
+      background-size: cover;
       display: block;
       width: 160px;
       height: 60px;
