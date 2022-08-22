@@ -29,7 +29,7 @@ Email:
 
 Phone:
   default: "604-454-8806"
-   max: 100
+  max: 100
   description:
     en: "Enter phone number"
 
