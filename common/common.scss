@@ -10,11 +10,13 @@
   }
   .flexbox {
     width: 100%;
-    display: flex;
-    flex-wrap: wrap;
+    // display: flex;
+    // flex-wrap: wrap;
     color: inherit;
-    
   }
+   > * + * {
+    margin-top: 2.5rem;
+   }
   .first-box {
     max-width: 20%;
     > a {
@@ -57,8 +59,11 @@
     font-weight: 200;
     .support {
       > a {
-        background: no-repeat url($haylar_logo);
+        background: no-repeat url(/uploads/default/original/1X/25d860a….webp);
+        background-size: contain;
         display: block;
+        width: 90px;
+        height: 49px;
       }
     }
     .social {
