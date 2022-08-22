@@ -17,9 +17,7 @@
   }
   .first-box {
     max-width: 20%;
-    > a {
-      background-image: url($heading_image);
-    }
+    
     .blurb {
       color: var(--secondary-high);
     }
@@ -52,9 +50,7 @@
     align-items: center;
     font-weight: 200;
     .suuport {
-      > a {
-        background-image: url($haylar_logo);
-      }
+      
     }
     .social {
       display: flex;
