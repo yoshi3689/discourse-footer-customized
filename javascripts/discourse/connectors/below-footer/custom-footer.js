@@ -5,7 +5,7 @@ const getClassName = (text) => {
 export default {
   setupComponent() {
     try {
-      const splitSocialLinks = settings.Social_links.split("|").filter(Boolean);
+      const splitSocialLinks = settings.social_links.split("|").filter(Boolean);
 
       const socialLinksArray = [];
 
