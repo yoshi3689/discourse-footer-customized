@@ -131,7 +131,7 @@
     .second-box {
       display: grid;
       grid-template-columns: 1fr 1fr;
-      grid-template-rows: 1fr 1fr;
+      grid-template-rows: 1fr max-content;
       align-items: center;
       .company-detail {
         grid-row: 1;
