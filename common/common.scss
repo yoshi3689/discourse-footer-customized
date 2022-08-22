@@ -12,7 +12,7 @@
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    color: var(--secondary);
+    color: inherit;
     
   }
   .first-box {
@@ -29,7 +29,8 @@
   }
   .second-box {
     .company-detail {
-      * + * {
+      font-weight: 200;
+      > * + * {
         margin-top: 1rem;
       }
     }
@@ -52,7 +53,7 @@
     width: 100%;
     display: flex;
     align-items: center;
-    border-top: 1px solid rgba(var(--primary-low-rgb), 0.05);
+    font-weight: 200;
     .social {
       display: flex;
       flex-wrap: wrap;

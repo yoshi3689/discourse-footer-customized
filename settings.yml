@@ -1,8 +1,8 @@
-Heading:
-  default: "Good to Grow"
-  max: 25
-  description:
-    en: "Text for the heading in the footer - you can use your site name for example - Max length 25 characters"
+# Heading:
+#   default: "Good to Grow"
+#   max: 25
+#   description:
+#     en: "Text for the heading in the footer - you can use your site name for example - Max length 25 characters"
 
 Heading_Image:
   type: upload
