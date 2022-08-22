@@ -17,7 +17,9 @@
   }
   .first-box {
     max-width: 20%;
-    
+    > a {
+      background-image: url($heading_image);
+    }
     .blurb {
       color: var(--secondary-high);
     }
