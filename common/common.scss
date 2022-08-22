@@ -13,10 +13,10 @@
     // display: flex;
     // flex-wrap: wrap;
     color: inherit;
+    > * + * {
+      margin-top: 2.5rem;
+     }
   }
-   > * + * {
-    margin-top: 2.5rem;
-   }
   .first-box {
     max-width: 20%;
     > a {
