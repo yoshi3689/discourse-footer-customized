@@ -17,11 +17,8 @@
   }
   .first-box {
     max-width: 20%;
-    .heading {
-      font-size: $font-up-2;
-      font-weight: bold;
-      margin-bottom: 0.5em;
-      display: block;
+    > a {
+      background-image: url($heading_image);
     }
     .blurb {
       color: var(--secondary-high);
