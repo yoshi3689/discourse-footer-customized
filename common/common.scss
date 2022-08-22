@@ -38,17 +38,10 @@
       }
     }
     flex: 1;
-    .links {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: flex-end;
-      ul {
-        list-style: none;
-        margin: 0;
-        min-width: 100px;
-      }
-      li {
-        margin: 0.5em 0;
+    .news_blurb {
+      margin-top: 1.5rem;
+      .blurb {
+        padding: 3rem 0;
       }
     }
   }
